@@ -5,23 +5,33 @@
 }
 
 body{
-    background-color: #758d02;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,109,121,1) 35%, rgba(2,187,222,1) 84%);
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
 }
-h1{
+h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+p{
+    font-family: sans-serif;
     text-align: center;
     color: #fff;
 }
 
 #reloadBtn {
+    border: 2px solid rgb(24, 78, 94);
+    margin-top: 10px;
+    font-family: sans-serif;
     background-color: #fff;
-    color: #000;
+    color: #1473c0;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 6px 20px;
     cursor: pointer;
     font-size: 16px;
   }
@@ -35,7 +45,7 @@ h1{
 }
 
 .card{
-    border: 2px solid black;
+    border: 2px solid rgb(24, 78, 94);
     border-radius:5px;
     cursor: pointer;
     position: relative;
